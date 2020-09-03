@@ -98,7 +98,8 @@ local browser      = os.getenv("BROWSER") or "firefox"
 local scrlocker    = "slock"
 
 awful.util.terminal = terminal
-awful.util.tagnames = { "Web", "Terminal", "File System", "Music", "Games", "6", "7", "8", "9"}
+awful.util.tagnames = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"}
+-- awful.util.tagnames = { "w", "t", "f", "m", "g", "s", "7", "8", "9"}
 awful.layout.layouts = {
     awful.layout.suit.floating,
     awful.layout.suit.tile,
